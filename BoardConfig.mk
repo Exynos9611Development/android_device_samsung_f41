@@ -24,14 +24,11 @@ include device/samsung/universal9611-common/BoardConfigCommon.mk
 # OTA Asserts
 TARGET_OTA_ASSERT_DEVICE := f41,f41dd,f41nsxx
 
-
 ## Partitions Sizes
 BOARD_BOOTIMAGE_PARTITION_SIZE := 61865984
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 71106560
 BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
-
-TARGET_SEC_FP_HAS_FINGERPRINT_GESTURES := true
 
 ## Filesystem config
 include device/samsung/universal9611-common/fsconfig_dynamic.mk
